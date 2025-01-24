@@ -1,0 +1,220 @@
+.general-bg {
+    background: url('../img/general_bg.png');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 60px;
+    width: 63px;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 1.30rem;
+    flex-grow: 1; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 0.60rem 1.30rem;
+    border-radius: 0.30rem;
+    font-size: 1.00rem;
+    font-family: "Poppins", serif;
+}
+
+.nav-links :hover {
+    color: #d7658b;
+}
+
+.log-link {
+    text-decoration: none;
+    color: white;
+    padding: 0.60rem 1.30rem;
+    border-radius: 0.30rem;
+    font-size: 1.00rem;
+    font-family: "Poppins", serif;
+    border-radius: 86px;
+    border: 4px solid white;
+    
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px; 
+}
+
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6e149e;
+    color: white;
+    text-align: center;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.log-container {
+    margin-left: auto; 
+}
+
+.log-container :hover {
+    color: #d7658b;
+}
+
+html { scroll-behavior: smooth; }
+
+.title {
+    font-size: 123px;
+    color: #d7658b;
+    text-align: center;
+}
+
+.logout {
+    text-decoration: none;
+    color: white;
+    padding: 0.60rem 1.30rem;
+    border-radius: 0.30rem;
+    font-size: 1.00rem;
+    font-family: "Poppins", serif;
+    border-radius: 86px;
+    border: 4px solid red;
+    background-color: red;
+}
+
+.logout:hover {
+    cursor: pointer;
+    color: #d7658b;
+    background-color: #cc0000;
+}
+
+
+.attraction {
+    height: 50vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25vh;
+    
+    
+}
+
+.attraction h2 {
+    font-size: 50px;
+    color: #d7658b;
+    padding: 50px;
+    background-color: white;
+    width: 250px;
+}
+
+.attraction h3 {
+    font-family: "Poppins", serif;;
+    color: #d7658b;
+    padding: 50px;
+    background-color: white;
+    flex-wrap: wrap;
+    font-size: 25px;
+    width: 50vh;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    height: 77px;
+}
+
+.attraction button {
+    font-size: 50px;
+    color: #d7658b;
+    padding: 57px;
+    background-color: #6e149e;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
+    position: absolute; 
+    left: 850px;
+}
+
+.attraction button:hover {
+    cursor: pointer;
+    background-color: #5c0d7e;
+}
+
+.attraction-golf {
+    background-image: url('../img/golf.jfif');
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50vh;
+    
+}
+
+.caption {
+    font-size: 156px;
+    color: white;
+}
+
+.text {
+    color: #d7658b;
+    max-width: 900px;
+    word-wrap: break-word;
+}
+
+.header {
+    color: #d7658b;
+    text-decoration: underline;
+}
+
+.book {
+    text-decoration: none;
+    color: white;
+    padding: 0.60rem 1.30rem;
+    border-radius: 0.30rem;
+    font-size: 1.00rem;
+    font-family: "Poppins", serif;
+    border-radius: 86px;
+    border: 4px solid #6e149e;
+    background-color: #6e149e;
+}
+
+.book:hover {
+    cursor: pointer;
+    color: #d7658b;
+    background-color: #5c0d7e;
+}
